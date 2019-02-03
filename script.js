@@ -9,6 +9,7 @@
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
+var rem = document.getElementsByClassName('kill')
 //create a list
  var list = document.getElementsByTagName("LI");
  var btn = document.createElement("BUTTON");
@@ -93,4 +94,13 @@ if(e.target.tagName === 'LI') {e.target.classList.toggle('done')}
 
 
  var rem = document.getElementsByClassName('kill')
+
+for (var i =0; i<rem.length; i++)
+{
+	console.log(rem[i].innerHTML);
+}
+
+
+
+
     
